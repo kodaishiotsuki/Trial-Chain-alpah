@@ -123,7 +123,7 @@ export default function TrialResultItem({ company, user }) {
           to={`/chat/${groupId}`}
           color='teal'
           floated='right'
-          content='カジュアル面談へ'
+          content='チャット画面へ'
           style={{
             fontSize: 15,
             marginTop: 15,

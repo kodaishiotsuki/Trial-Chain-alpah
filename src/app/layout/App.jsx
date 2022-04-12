@@ -24,6 +24,7 @@ import TrialUserList from "../../features/company/TrialUserList";
 import TrialUserProfilePage from "../../features/company/TrialUserProfilePage";
 import UserProfilePage from "../../features/profiles/profilePage/UserProfilePage";
 import ChatPage from "../../features/chat/ChatPage";
+import MatchUserList from "../../features/companyMember/MatchUserList";
 
 function App() {
   const { key } = useLocation();
@@ -52,6 +53,8 @@ function App() {
               {/* 会社側 */}
               <PrivateRoute path='/userList' component={UserList} />
               <PrivateRoute path='/trialUserList' component={TrialUserList} />
+              {/* 会社のメンバー */}
+              <PrivateRoute path='/matchUserList' component={MatchUserList} />
               {/* チャット */}
               <PrivateRoute path='/chat/:id' component={ChatPage} />
               {/* 同じコンポーネントを開くためのroute */}

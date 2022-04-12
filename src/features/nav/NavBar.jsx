@@ -91,9 +91,9 @@ export default function NavBar({ setFormOpen }) {
                 <Menu.Item as={NavLink} to='/userList'>
                   <Button inverted basic content='求職者リスト' />
                 </Menu.Item>
-                {/* <Menu.Item as={NavLink} to='/trialResult'>
-                  <Button positive inverted content='トライアル申請結果' />
-                </Menu.Item> */}
+                <Menu.Item as={NavLink} to='/matchUserList'>
+                  <Button positive inverted content='マッチした求職者リスト' />
+                </Menu.Item>
               </>
             )}
           </>

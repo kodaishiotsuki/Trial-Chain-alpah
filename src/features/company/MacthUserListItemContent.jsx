@@ -51,7 +51,7 @@ export default function MacthUserListItemContent({ matchUser, currentUser }) {
         <Button
           floated='right'
           color='teal'
-          content='カジュアル面談へ'
+          content='チャット画面へ'
           style={{ fontSize: 15 }}
           as={Link}
           to={`/chat/${groupId}`}
