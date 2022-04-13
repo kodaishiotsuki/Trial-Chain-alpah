@@ -30,7 +30,7 @@ export default function EventListItem({ event }) {
               <Item.Header content={event.title} style={{fontSize:20}} />
               <br />
               <Label
-                style={{ top: "-45px" }}
+                style={{ top: "-47px" }}
                 ribbon='right'
                 color='orange'
                 content={`トライアル期間：${event.trialMonth}ヶ月`}
