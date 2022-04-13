@@ -157,7 +157,7 @@ export default function EventForm({ match, history, location }) {
               placeholder='求めている人材を選択してください'
               options={careerData}
             />
-            <MySelectInput
+            {/* <MySelectInput
               name='career[1]'
               placeholder='求めている人材を選択してください'
               options={careerData}
@@ -166,7 +166,7 @@ export default function EventForm({ match, history, location }) {
               name='career[2]'
               placeholder='求めている人材を選択してください'
               options={careerData}
-            />
+            /> */}
             <MyTextArea
               name='description'
               placeholder='企業の詳細を記入してください'

@@ -65,9 +65,6 @@ export default function NavBar({ setFormOpen }) {
           <>
             {userType?.userType === "企業" && (
               <>
-                {/* <Menu.Item as={NavLink} to='/createEvent'>
-                  <Button color='blue' inverted content='企業投稿ページ' />
-                </Menu.Item> */}
                 <Menu.Item as={NavLink} to='/userList'>
                   <Button inverted basic content='求職者リスト' />
                 </Menu.Item>
@@ -98,7 +95,6 @@ export default function NavBar({ setFormOpen }) {
             )}
           </>
         )}
-
         {authenticated ? (
           <SignedInMenu userType={userType} />
         ) : (

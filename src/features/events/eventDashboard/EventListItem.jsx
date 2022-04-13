@@ -42,7 +42,7 @@ export default function EventListItem({ event }) {
               <Item.Content
                 className='ui  tag label'
                 content={event.career[0]}
-                style={{ margin: 5,fontSize:15 }}
+                style={{ margin: 5,fontSize:15}}
               />
               {/* <Item.Content
                 className='ui  tag label'

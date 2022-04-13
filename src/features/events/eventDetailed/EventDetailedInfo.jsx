@@ -141,7 +141,7 @@ export default function EventDetailedInfo({ event, isHost }) {
         </Grid>
       </Segment> */}
 
-      <Segment attached>
+      {/* <Segment attached>
         <Grid verticalAlign='middle'>
           <Grid.Column width={1}>
             <Icon name='users' size='large' color='teal' />
@@ -150,7 +150,7 @@ export default function EventDetailedInfo({ event, isHost }) {
             <Label
               className='ui teal tag label'
               content={event.career[0]}
-              style={{ marginRight: 25 }}
+              style={{ marginRight: 25, fontSize: 15 }}
             />
             <Label
               className='ui teal tag label'
@@ -164,8 +164,9 @@ export default function EventDetailedInfo({ event, isHost }) {
             />
           </Grid.Column>
         </Grid>
-      </Segment>
+      </Segment> */}
 
+        {/* 地図 */}
       <Segment attached>
         <Grid verticalAlign='middle'>
           <Grid.Column width={1}>
