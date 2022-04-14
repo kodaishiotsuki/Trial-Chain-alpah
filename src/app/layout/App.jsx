@@ -25,6 +25,7 @@ import TrialUserProfilePage from "../../features/company/TrialUserProfilePage";
 import UserProfilePage from "../../features/profiles/profilePage/UserProfilePage";
 import ChatPage from "../../features/chat/ChatPage";
 import MatchUserList from "../../features/companyMember/MatchUserList";
+import CompanyNavBar from "../../features/nav/CompanyNavBar";
 
 function App() {
   const { key } = useLocation();
@@ -43,6 +44,7 @@ function App() {
         render={() => (
           <>
             <NavBar />
+            <CompanyNavBar />
             <Container className='main'>
               <Route exact path='/events' component={EventDashboard} />
               <Route exact path='/sandbox' component={Sandbox} />

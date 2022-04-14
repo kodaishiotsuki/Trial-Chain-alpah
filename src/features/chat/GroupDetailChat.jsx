@@ -72,7 +72,7 @@ export default function GroupDetailedChat({ groupId }) {
             groupId={groupId}
             parentId={0}
             // closeForm={setShowReplyForm}
-            style={{ marginBottom: "20px" }}
+            
           />
           <Comment.Group style={{ margin: "auto" }}>
             {createDataTree(comments).map((comment) => (
@@ -80,7 +80,7 @@ export default function GroupDetailedChat({ groupId }) {
                 {comment.uid === currentUser.uid ? (
                   <Comment
                     key={`my${comment.id}`}
-                    style={{ marginLeft: "auto", width: 200 }}
+                    style={{ marginLeft: "auto", width: 250 }}
                   >
                     <Comment.Avatar
                       src={comment.photoURL || "/assets/user.png"}
@@ -122,7 +122,7 @@ export default function GroupDetailedChat({ groupId }) {
                 ) : (
                   <Comment
                     key={`other${comment.id}`}
-                    style={{ marginRight: "auto", width: 200 }}
+                    style={{ marginRight: "auto", width: 250 }}
                   >
                     <Comment.Avatar
                       src={comment.photoURL || "/assets/user.png"}
